@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    
+    height: 30px;
+    width: 100px;
+
+
+}
+.search{
+    justify-content: flex-end;
+}
+
+.image2
+{
+    height: 70px;
+    width: 260px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
