@@ -8,13 +8,13 @@ export class Header extends Component {
     render() {
         return (
             <div class="main">
-                
+
                 <header >
                     <div>
-                    <img src={wysh_logo} class="image"></img>;
+                        <img src={wysh_logo} class="image"></img>;
                     </div>
-                    
-                <div class="search">
+
+                    <div class="search">
                         <img src={search} class="image2"></img>
                     </div>
                 </header>
