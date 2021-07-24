@@ -6,7 +6,7 @@ import './index.css';
 
 const Card = (props) => {
   return (
-    <Link to={`/Profile/1`} >
+    <Link to={`/Profile/${props.name}`} >
 
       <div className='Card' style={{ backgroundImage: `url(${props.imgg})`, backgroundRepeat: "no-repeat", backgroundSize: 'contain' }} >
         <button className='btn'>  </button>
